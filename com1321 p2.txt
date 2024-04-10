@@ -1,0 +1,21 @@
+import java.util.Scanner;
+
+public class Project2{
+    
+    public static void main(String[]args){
+        
+        Scanner C= new Scanner(System.in);
+        
+        
+        System.out.println("enter the value of P: ");
+        double P=C.nextInt();
+        System.out.println("enter the value of i: ");
+        double i=C.nextInt();
+        System.out.println("enter the value of n: ");
+        double n=C.nextInt();
+    
+        
+      double  A=P * Math.pow((1+i),n);
+        System.out.println(A);
+    }
+}
